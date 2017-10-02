@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Artur Muzyczuk, Muzaga">
+    <meta name="author" content="Artur Muzyczuk, Muzaga">
+    <title>Muzaga's Circus</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="weather-object"></div>
+    <div class="raindrop raindrop1"></div>
+    <div class="raindrop raindrop2"></div>
+    <div class="raindrop raindrop3"></div>
+    <div class="raindrop raindrop4"></div>
+
+    <section class="main-sprite">
+      <h1>Muzaga's Circus</h1>
+      <article class="sprite-container">
+
+        <form class="sprite-form" action="index.html" method="post">
+
+          <fieldset>
+            <legend>Circus form</legend>
+
+            <p>What's ya sex?</p>
+
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">woman</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">man</label>
+            <input id="zero" type="radio" name="gender" value="z">
+            <label for="zero">nada</label>
+
+
+            <p>What's the weather like?</p>
+
+            <select class="weather" name="weather">
+              <option value="nada">nada</option>
+              <option value="sunny">sunny</option>
+              <option value="cloudy">cloudy</option>
+              <option value="rainy">rainy</option>
+              <option value="snowy">snowy</option>
+
+            </select><br />
+
+            <label for="give-name">Write yo name backwards:</label>
+            <input id="give-name" type="text" name="name" size="15">
+            <button class="btns" id="show-name" type="button" name="button">Show yo name</button>
+            <br />
+
+            <label for="give-age">How old is ya?</label>
+            <input id="give-age" type="text" name="age" size="15">
+            <br />
+
+            <button class="btns" id="show-age" type="button" name="button">Show me yo age</button>
+
+
+          </fieldset>
+
+        </form>
+
+        <div class="speech-bubble"></div>
+
+        <div class="sprite">
+
+          <button class="btns" type="button" name="button" id="stop">STOP</button>
+          <div class="capguy"></div>
+          <button class="btns" type="button" name="button" id="go">GO</button>
+
+
+
+        </div>
+
+      </article>
+      <div class="to-be-continued">TO BE CONTINUED</div><!-- temporary!!!!!!!! -->
+
+    </section> <!-- form-section -->
+  </main>
+</body>
+
+  <script type="text/javascript" src="app.js"></script>
+</html>
